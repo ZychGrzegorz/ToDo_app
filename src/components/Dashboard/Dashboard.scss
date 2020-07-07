@@ -1,0 +1,22 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  .projectsList {
+    .projectCard {
+      padding-bottom: 50px;
+      .cardTitle {
+        font-size: 150%;
+        display: block;
+        padding-bottom: 10px;
+      }
+      .paragraphAuthor {
+        color: $color6;
+      }
+      .paragraphDate {
+        color: $color5;
+      }
+    }
+  }
+}

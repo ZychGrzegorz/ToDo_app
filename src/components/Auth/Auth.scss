@@ -1,0 +1,34 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 100px 150px;
+  font-size: 100%;
+  .formTitle {
+    font-size: 140%;
+  }
+  .userInput {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-top: 10px;
+      font-size: 120%;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid black;
+      width: 30%;
+    }
+    input:focus {
+      background-color: $color6;
+    }
+    .btnForm {
+      width: 15%;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 100%;
+      background-color: $color6;
+    }
+  }
+}

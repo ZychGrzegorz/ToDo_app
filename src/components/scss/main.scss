@@ -1,0 +1,14 @@
+@import "../../../node_modules/reset-css/sass/reset";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
+@import "../../components/App/App.scss";
+@import "../../components/Navbar/Navbar.scss";
+@import "../../components/Dashboard/Dashboard.scss";
+@import "../../components/Auth/Auth.scss";
+@import "_colors";
+Body {
+  font-family: "Open Sans", sans-serif;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

@@ -10,17 +10,18 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    input {
+    .input {
       margin-top: 10px;
       font-size: 120%;
       outline: none;
       border: none;
       border-bottom: 1px solid black;
-      width: 30%;
+      width: 60%;
     }
-    input:focus {
-      background-color: $color6;
+    .input:focus {
+      border-bottom: 1px solid $color6;
     }
+
     .btnForm {
       width: 15%;
       border: none;
@@ -29,6 +30,11 @@
       font-weight: bold;
       font-size: 100%;
       background-color: $color6;
+    }
+    .errorInfo {
+      margin-top: 15px;
+      color: red;
+      font-weight: 400;
     }
   }
 }

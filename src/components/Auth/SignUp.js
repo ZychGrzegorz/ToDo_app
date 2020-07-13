@@ -21,26 +21,46 @@ class SignUp extends Component {
             <label htmlFor="email" className="emailLbl inputLbl">
               Email
             </label>
-            <input type="email" id="email" onChange={this.handleChange} />
+            <input
+              type="email"
+              id="email"
+              className="input"
+              onChange={this.handleChange}
+            />
           </div>
 
           <div className="inputField userInput">
             <label htmlFor="password" className="passwordLbl inputLbl">
               Password
             </label>
-            <input type="password" id="password" onChange={this.handleChange} />
+            <input
+              type="password"
+              id="password"
+              className="input"
+              onChange={this.handleChange}
+            />
           </div>
           <div className="inputField userInput">
             <label htmlFor="firstName" className="firstNameLbl inputLbl">
               First Name
             </label>
-            <input type="text" id="firstName" onChange={this.handleChange} />
+            <input
+              type="text"
+              id="firstName"
+              className="input"
+              onChange={this.handleChange}
+            />
           </div>
           <div className="inputField userInput">
             <label htmlFor="lastName" className="lastNameLbl inputLbl">
               Last Name
             </label>
-            <input type="text" id="lastName" onChange={this.handleChange} />
+            <input
+              type="text"
+              id="lastName"
+              className="input"
+              onChange={this.handleChange}
+            />
           </div>
 
           <div className="inputField userInput">

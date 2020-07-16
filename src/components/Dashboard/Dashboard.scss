@@ -19,4 +19,27 @@
       }
     }
   }
+  .notificationsContent {
+    .cardTitle {
+      font-size: 150%;
+      display: block;
+      padding-bottom: 30px;
+    }
+    .notificationsLi {
+      margin-bottom: 20px;
+      .user {
+        color: inherit;
+      }
+      .content {
+        color: $color6;
+      }
+      .date {
+        color: $color5;
+      }
+      .notificationElement {
+        margin-bottom: 3px;
+        display: block;
+      }
+    }
+  }
 }

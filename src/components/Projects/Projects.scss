@@ -1,0 +1,26 @@
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 30%;
+  .content {
+    .title {
+      font-size: 150%;
+    }
+    .description {
+      margin-top: 5px;
+      margin-bottom: 8px;
+    }
+  }
+  .details {
+    .author {
+      color: $color6;
+      margin-bottom: 3px;
+    }
+    .date {
+      color: $color5;
+    }
+  }
+}

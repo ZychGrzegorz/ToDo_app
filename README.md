@@ -19,11 +19,11 @@ npm start
 
 ## Built with
 
-* [React.JS](https://reactjs.org/) - Web framework used;
+* [React](https://reactjs.org/) - Web framework used;
 * [Redux](https://redux.js.org/) - State container;
 * [Firebase](https://firebase.google.com/) - Hosting, database, authentication service;
 * [React-Router](https://reactrouter.com/) - Routing;
-* [Moment.JS](https://momentjs.com/) - Date formatting;
+* [Moment](https://momentjs.com/) - Date formatting;
 * [SCSS](https://sass-lang.com/) - CSS preprocesor;
 * [Webpack](https://webpack.js.org/) - Module bundler;
 

@@ -3,6 +3,8 @@
 ToDo_app is an application that allows you to add to-do tasks.
 Before accessing the main page of the application, the user must log in or create an account. The right part of the application displays notifications.
 
+[Live](https://todo-redux-fef9b.web.app/)
+
 ![Todo_app](https://user-images.githubusercontent.com/50084927/87794302-b3524280-c846-11ea-959a-7ddb1f7ba5a7.gif)
 
 ## Installation

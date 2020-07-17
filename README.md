@@ -25,5 +25,5 @@ npm start
 * [React-Router](https://reactrouter.com/) - Routing;
 * [Moment.JS](https://momentjs.com/) - Date formatting;
 * [SCSS](https://sass-lang.com/) - CSS preprocesor;
-* [Webpacl](https://webpack.js.org/) - Module bundler;
+* [Webpack](https://webpack.js.org/) - Module bundler;
 
